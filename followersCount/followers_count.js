@@ -18,3 +18,7 @@ function checkCountValue() {
     }
 }
     
+function reset() {
+    count = 0
+    displayCount()
+}
