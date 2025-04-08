@@ -5,14 +5,26 @@
 </head>
 <body>
    <h1>Weather Report</h1>
-
+<div>
   <form id="weatherForm">
     <label for="city">Enter City:</label>
     <input type="text" id="city" name="city">
     <button type="submit">Get Weather</button>
   </form>
-
   <div id="weatherInfo"></div>
+</div>
+<div>
+  <form id="weatherForm2">
+    <label for="lat">Enter Lat:</label>
+    <input type="text" id="lat" name="lat">
+    <label for="lon">Enter Long:</label>
+    <input type="text" id="lon" name="lon">
+    <label for="resolvedCity">Auto-filled City:</label>
+    <input type="text" id="resolvedCity" name="resolvedCity" readonly>
+    <button type="submit">Get Weather</button>
+  </form>
+  <div id="weatherInfo2"></div>
+</div>
 <script src="./weather_report.js"></script>
 </body>
 </html>
